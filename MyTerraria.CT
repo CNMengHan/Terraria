@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<CheatTable CheatEngineTableVersion="42">
+<CheatTable CheatEngineTableVersion="45">
   <CheatEntries>
     <CheatEntry>
       <ID>6470</ID>
@@ -27797,14 +27797,14 @@ Terraria.Player::PickAmmo+8b4:
           <CheatEntries>
             <CheatEntry>
               <ID>1487</ID>
-              <Description>"Select Slot for Rapid Fire (except slot 2)"</Description>
+              <Description>"选择快速射击的插槽（插槽 2 除外）"</Description>
               <ShowAsSigned>0</ShowAsSigned>
               <VariableType>4 Bytes</VariableType>
               <Address>rfSlot</Address>
             </CheatEntry>
             <CheatEntry>
               <ID>1486</ID>
-              <Description>"Rapid Fire (enable player base script first) (disable to return weapon to previous value)"</Description>
+              <Description>"快速射击（首先启用玩家基础脚本, 禁用将武器返回到之前的值）"</Description>
               <VariableType>Auto Assembler Script</VariableType>
               <AssemblerScript>{$lua}
 if syntaxcheck then return end
@@ -27846,7 +27846,7 @@ end
             </CheatEntry>
             <CheatEntry>
               <ID>6426</ID>
-              <Description>"Set Items in Hotbar to Rapid Fire? (can't be undone without exiting game)"</Description>
+              <Description>"将热栏中的项目设置为快速射击（不退出游戏就无法撤消）"</Description>
               <DropDownList ReadOnly="1" DescriptionOnly="1" DisplayValueAsItem="1">0:No
 1:Yes, all of them
 2:Just slots 3,4 and 5
